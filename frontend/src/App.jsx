@@ -64,7 +64,7 @@ function App() {
   setAuthMessage("");
 
   try {
-    const response = await fetch("http://localhost:5000/api/register", {
+    const response = await fetch("https://factflow-backend-nbqr.onrender.com/api/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
