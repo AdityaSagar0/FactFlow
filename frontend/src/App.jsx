@@ -44,7 +44,7 @@ function App() {
   useEffect(() => {
   const token = localStorage.getItem("token");
 
-  fetch("http://localhost:5000/api/analyses", {
+  fetch("https://factflow-backend-nbqr.onrender.com/api/analyses", {
     headers: {
       Authorization: `Bearer ${token}`,
     },
@@ -246,7 +246,7 @@ function App() {
         try {
         const token = localStorage.getItem("token");
 
-        const response = await fetch("http://localhost:5000/api/analyses", {
+        const response = await fetch("https://factflow-backend-nbqr.onrender.com/api/analyses", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
