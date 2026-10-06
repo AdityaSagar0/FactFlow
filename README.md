@@ -108,6 +108,11 @@ FactFlow provides AI-assisted analysis and does not guarantee that content is ab
 - Larger-scale content monitoring
 - Additional verification techniques
 
+## Live Deployment
+
+- **Frontend:** [FactFlow Web App](fact-flow-lake.vercel.app)
+- **Backend:** [FactFlow Backend](https://factflow-backend-nbqr.onrender.com)
+
 ## Developer
 
 **Aditya Sagar**
