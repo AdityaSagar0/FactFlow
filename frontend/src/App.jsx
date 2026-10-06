@@ -124,13 +124,11 @@ function App() {
       }
 
     if (
-    content.trim() &&
-    (content.startsWith("http://") || content.startsWith("https://")) === false &&
-    content.includes(".")
-    ) {
-    setMessage("Please enter a valid URL starting with http:// or https://");
-    return;
-    }
+  content.trim().startsWith("www.") ||
+  content.trim().match(/^https?:\/\//)
+) {
+  // Valid URL
+}
   
     setLoading(true);
 
