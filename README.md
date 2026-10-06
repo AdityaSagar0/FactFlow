@@ -48,7 +48,14 @@ FactFlow is an AI-assisted digital content verification platform designed to ana
 ```text
 FactFlow/
 ├── frontend/
+│   ├── src/
+│   ├── package.json
+│   └── ...
 ├── backend/
+│   ├── server.js
+│   ├── package.json
+│   └── ...
+├── .gitignore
 └── README.md
 
 
